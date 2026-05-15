@@ -1,0 +1,142 @@
+{
+  "concepts": [
+    {
+      "id": "phy-kinematics",
+      "subject": "Physics",
+      "topic": "Kinematics",
+      "summary": "Kinematics is the branch of mechanics that describes how objects move — without worrying about the forces that cause the motion. It deals with position, displacement, velocity, and acceleration.",
+      "key_formulas": [
+        { "label": "Final velocity",             "formula": "v = u + at" },
+        { "label": "Displacement",               "formula": "s = ut + ½at²" },
+        { "label": "Velocity-displacement",      "formula": "v² = u² + 2as" }
+      ],
+      "common_mistakes": [
+        "Forgetting that 'g' is negative when an object moves upward",
+        "Mixing up velocity (vector) with speed (scalar)",
+        "Using wrong sign convention for displacement vs distance"
+      ],
+      "worked_example": {
+        "problem": "A ball is thrown upward with an initial velocity of 20 m/s. How high does it rise? (g = 10 m/s²)",
+        "steps": [
+          "At the highest point, final velocity v = 0",
+          "Use v² = u² − 2gs (since g acts downward when motion is upward)",
+          "0 = (20)² − 2(10)s",
+          "s = 400 / 20 = 20 m"
+        ],
+        "answer": "The ball rises 20 m."
+      },
+      "next_topics": ["Newton's laws of motion", "Projectile motion", "Circular motion"]
+    },
+    {
+      "id": "math-trigonometry",
+      "subject": "Mathematics",
+      "topic": "Trigonometric identities",
+      "summary": "Trigonometric identities are equations involving trig functions that are true for every value of the variable. The 'big three' are the Pythagorean identity, the sum/difference formulas, and the double-angle formulas.",
+      "key_formulas": [
+        { "label": "Pythagorean",  "formula": "sin²θ + cos²θ = 1" },
+        { "label": "Sum",          "formula": "sin(A+B) = sin A cos B + cos A sin B" },
+        { "label": "Double angle", "formula": "sin 2θ = 2 sin θ cos θ" }
+      ],
+      "common_mistakes": [
+        "Forgetting that sin²θ means (sin θ)², not sin(θ²)",
+        "Mixing up cos(A+B) and cos A + cos B — they're not the same!",
+        "Dropping signs when working in non-standard quadrants"
+      ],
+      "worked_example": {
+        "problem": "Prove that (1 − cos 2θ) / sin 2θ = tan θ",
+        "steps": [
+          "Use double-angle formulas: 1 − cos 2θ = 2 sin²θ and sin 2θ = 2 sin θ cos θ",
+          "Substitute: (2 sin²θ) / (2 sin θ cos θ)",
+          "Simplify: sin θ / cos θ = tan θ ✓"
+        ],
+        "answer": "Identity proved."
+      },
+      "next_topics": ["Inverse trigonometric functions", "Solving trig equations", "Heights and distances"]
+    },
+    {
+      "id": "chem-bonding",
+      "subject": "Chemistry",
+      "topic": "Chemical bonding",
+      "summary": "Chemical bonds are the forces that hold atoms together. The two main types are ionic bonds (electron transfer) and covalent bonds (electron sharing). The bond formed depends on the electronegativity difference between atoms.",
+      "key_formulas": [
+        { "label": "Bond order",          "formula": "BO = ½ (Nb − Na), where Nb = bonding electrons, Na = antibonding" },
+        { "label": "Formal charge",       "formula": "FC = V − N − B/2" },
+        { "label": "Electronegativity Δ", "formula": "Ionic if Δ > 1.7, polar covalent if 0.4 < Δ < 1.7, nonpolar if Δ < 0.4" }
+      ],
+      "common_mistakes": [
+        "Confusing bond order with oxidation number",
+        "Forgetting lone pairs when assigning formal charges",
+        "Assuming all C-H bonds are nonpolar (they're slightly polar)"
+      ],
+      "worked_example": {
+        "problem": "Predict the bond type in NaCl (ENNa = 0.9, ENCl = 3.0)",
+        "steps": [
+          "Δ EN = 3.0 − 0.9 = 2.1",
+          "Since Δ > 1.7, the bond is ionic",
+          "Na donates an electron to Cl, forming Na⁺ and Cl⁻"
+        ],
+        "answer": "NaCl has an ionic bond."
+      },
+      "next_topics": ["VSEPR theory", "Hybridization", "Intermolecular forces"]
+    },
+    {
+      "id": "bio-cell-respiration",
+      "subject": "Biology",
+      "topic": "Cellular respiration",
+      "summary": "Cellular respiration is how cells break down glucose to release energy stored as ATP. It happens in three main stages: glycolysis (cytoplasm), Krebs cycle (mitochondrial matrix), and oxidative phosphorylation (inner mitochondrial membrane).",
+      "key_formulas": [
+        { "label": "Overall reaction", "formula": "C₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O + ~30 ATP" },
+        { "label": "Glycolysis yield", "formula": "1 glucose → 2 pyruvate + 2 ATP + 2 NADH" },
+        { "label": "Total ATP yield",  "formula": "~30–32 ATP per glucose (eukaryotes)" }
+      ],
+      "common_mistakes": [
+        "Saying respiration only happens in mitochondria — glycolysis is in the cytoplasm",
+        "Forgetting that fermentation is anaerobic and only yields 2 ATP",
+        "Confusing respiration with breathing (respiration is cellular)"
+      ],
+      "worked_example": {
+        "problem": "Why is aerobic respiration more efficient than anaerobic?",
+        "steps": [
+          "Anaerobic respiration (fermentation) stops at pyruvate → lactate or ethanol, yielding only 2 ATP",
+          "Aerobic respiration continues through Krebs cycle and ETC, fully oxidising glucose",
+          "Aerobic yields ~30 ATP vs 2 ATP — a 15× difference"
+        ],
+        "answer": "Aerobic respiration extracts ~15× more energy per glucose molecule."
+      },
+      "next_topics": ["Photosynthesis", "Anaerobic respiration", "Energy and enzymes"]
+    },
+    {
+      "id": "cs-python-loops",
+      "subject": "Computer Science",
+      "topic": "Python loops",
+      "summary": "Python has two main loop types: 'for' loops (iterate over a sequence) and 'while' loops (run while a condition is True). Use 'for' when you know how many iterations; use 'while' when you don't.",
+      "key_formulas": [
+        { "label": "For loop",   "formula": "for item in sequence: ..." },
+        { "label": "While loop", "formula": "while condition: ..." },
+        { "label": "Range",      "formula": "range(start, stop, step)" }
+      ],
+      "common_mistakes": [
+        "Forgetting to update the loop variable in a while loop → infinite loop",
+        "Using range(1, n) when you mean range(n) — off-by-one error",
+        "Mutating a list while iterating over it"
+      ],
+      "worked_example": {
+        "problem": "Print numbers 1 to 5 using a for loop",
+        "steps": [
+          "Use range(1, 6) to generate 1, 2, 3, 4, 5",
+          "Loop body: print(i)",
+          "Code:\n  for i in range(1, 6):\n      print(i)"
+        ],
+        "answer": "Outputs 1, 2, 3, 4, 5 on separate lines."
+      },
+      "next_topics": ["Functions", "Lists and tuples", "Dictionaries"]
+    }
+  ],
+  "study_techniques": [
+    { "id": "active-recall",      "name": "Active recall",      "description": "Test yourself instead of re-reading. Cover the page and try to write the answer from memory.", "best_for": "Facts, formulas, definitions" },
+    { "id": "spaced-repetition",  "name": "Spaced repetition",  "description": "Review material at increasing intervals: 1 day, 3 days, 1 week, 2 weeks.",                       "best_for": "Long-term retention" },
+    { "id": "feynman",            "name": "Feynman technique",  "description": "Explain the concept in simple words as if teaching a child. If you get stuck, you've found a gap.", "best_for": "Conceptual understanding" },
+    { "id": "pomodoro",           "name": "Pomodoro technique", "description": "Study in focused 25-minute blocks with 5-minute breaks. After 4 blocks, take a longer 15-min break.", "best_for": "Sustained focus, beating procrastination" },
+    { "id": "interleaving",       "name": "Interleaving",       "description": "Mix different topics or subjects in one study session instead of blocking one topic at a time.",  "best_for": "Problem-solving skills" }
+  ]
+}

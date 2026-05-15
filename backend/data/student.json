@@ -1,0 +1,74 @@
+{
+  "student": {
+    "id": "STU-2026-04417",
+    "name": "Ananya Patel",
+    "grade": "Class 11 — Science stream",
+    "board": "CBSE",
+    "school": "Greenfield Academy, Surat",
+    "section": "B",
+    "roll_number": "11B-22",
+    "gpa": 8.42,
+    "academic_year": "2025–26",
+    "term": "Term 2"
+  },
+  "courses": [
+    { "id": "c001", "code": "PHY-11", "name": "Physics",            "teacher": "Mr. Ramesh Iyer",     "schedule": "Mon, Wed, Fri · 9:00–9:50 AM",  "credits": 4, "grade_so_far": "A",  "color": "#A78BFA" },
+    { "id": "c002", "code": "CHEM-11", "name": "Chemistry",          "teacher": "Ms. Priya Bhatt",    "schedule": "Mon, Thu · 10:00–10:50 AM",     "credits": 4, "grade_so_far": "A-", "color": "#5EEAD4" },
+    { "id": "c003", "code": "MATH-11", "name": "Mathematics",        "teacher": "Mr. Suresh Mehta",   "schedule": "Tue, Thu, Sat · 9:00–9:50 AM",  "credits": 4, "grade_so_far": "B+", "color": "#FFD787" },
+    { "id": "c004", "code": "BIO-11", "name": "Biology",             "teacher": "Dr. Kavita Sharma",  "schedule": "Tue, Fri · 10:00–10:50 AM",     "credits": 4, "grade_so_far": "A",  "color": "#86efac" },
+    { "id": "c005", "code": "ENG-11", "name": "English Core",        "teacher": "Ms. Anjali Rao",     "schedule": "Mon, Wed · 11:00–11:50 AM",     "credits": 3, "grade_so_far": "A-", "color": "#fb923c" },
+    { "id": "c006", "code": "CS-11", "name": "Computer Science",    "teacher": "Mr. Aakash Verma",   "schedule": "Wed, Fri · 2:00–2:50 PM",       "credits": 3, "grade_so_far": "A",  "color": "#60A5FA" }
+  ],
+  "assignments": [
+    { "id": "a001", "course": "c001", "title": "Kinematics problem set 4",         "due": "Tomorrow, 11:59 PM",   "due_in_hours": 18, "status": "in_progress", "points": 25, "type": "Problem set" },
+    { "id": "a002", "course": "c003", "title": "Trigonometry chapter test prep",   "due": "Dec 8, 9:00 AM",       "due_in_hours": 60, "status": "not_started", "points": 30, "type": "Practice test" },
+    { "id": "a003", "course": "c002", "title": "Lab report — Salt analysis",       "due": "Dec 10, 5:00 PM",      "due_in_hours": 110, "status": "not_started", "points": 20, "type": "Lab report" },
+    { "id": "a004", "course": "c005", "title": "Essay — Theme of conflict in 'Hamlet'", "due": "Dec 12, 11:59 PM", "due_in_hours": 158, "status": "draft",      "points": 40, "type": "Essay" },
+    { "id": "a005", "course": "c006", "title": "Python project — Library system",  "due": "Dec 15, 5:00 PM",      "due_in_hours": 230, "status": "not_started", "points": 50, "type": "Project" },
+    { "id": "a006", "course": "c004", "title": "Cell respiration worksheet",       "due": "Yesterday",            "due_in_hours": -16, "status": "submitted",   "points": 15, "type": "Worksheet" }
+  ],
+  "grades_recent": [
+    { "id": "g001", "course": "c001", "title": "Unit test 2 — Motion in a plane",  "score": 23, "max": 25, "pct": 92, "letter": "A",  "date": "Nov 28" },
+    { "id": "g002", "course": "c003", "title": "Quiz — Sets and relations",       "score": 17, "max": 20, "pct": 85, "letter": "A-", "date": "Nov 25" },
+    { "id": "g003", "course": "c002", "title": "Unit test 2 — Chemical bonding", "score": 21, "max": 25, "pct": 84, "letter": "A-", "date": "Nov 22" },
+    { "id": "g004", "course": "c004", "title": "Practical — Mitosis observation","score": 19, "max": 20, "pct": 95, "letter": "A",  "date": "Nov 20" },
+    { "id": "g005", "course": "c005", "title": "Reading comprehension test",     "score": 26, "max": 30, "pct": 87, "letter": "A-", "date": "Nov 18" },
+    { "id": "g006", "course": "c006", "title": "Python basics quiz",             "score": 18, "max": 20, "pct": 90, "letter": "A",  "date": "Nov 15" }
+  ],
+  "attendance": {
+    "overall_pct": 93.4,
+    "present_days": 71,
+    "total_days": 76,
+    "by_course": [
+      { "course": "c001", "pct": 95.2 },
+      { "course": "c002", "pct": 92.1 },
+      { "course": "c003", "pct": 90.8 },
+      { "course": "c004", "pct": 94.7 },
+      { "course": "c005", "pct": 96.3 },
+      { "course": "c006", "pct": 91.6 }
+    ]
+  },
+  "today_schedule": [
+    { "time": "9:00–9:50 AM",   "course": "c003", "name": "Mathematics",     "room": "Room 204", "teacher": "Mr. Suresh Mehta",   "note": "Bring graph paper" },
+    { "time": "10:00–10:50 AM", "course": "c004", "name": "Biology",         "room": "Lab 3",    "teacher": "Dr. Kavita Sharma",  "note": "Practical session" },
+    { "time": "11:00–11:50 AM", "course": "c005", "name": "English Core",    "room": "Room 108", "teacher": "Ms. Anjali Rao",     "note": "—" },
+    { "time": "12:00–12:50 PM", "course": null,   "name": "Lunch break",     "room": "—",        "teacher": "—",                  "note": "—" },
+    { "time": "1:00–1:50 PM",   "course": "c004", "name": "Biology (Lab)",   "room": "Lab 3",    "teacher": "Dr. Kavita Sharma",  "note": "Continue practical" },
+    { "time": "2:00–2:50 PM",   "course": "c006", "name": "Computer Science","room": "CS Lab",   "teacher": "Mr. Aakash Verma",   "note": "Python project work" }
+  ],
+  "fees": {
+    "term": "Term 2 (Oct 2025 – Mar 2026)",
+    "total": 45000,
+    "paid": 30000,
+    "due": 15000,
+    "due_date": "Dec 20, 2025",
+    "breakdown": [
+      { "head": "Tuition fee",       "amount": 28000, "paid": 28000 },
+      { "head": "Lab fee",           "amount": 5000,  "paid": 2000  },
+      { "head": "Library fee",       "amount": 2000,  "paid": 0     },
+      { "head": "Activity & sports", "amount": 4000,  "paid": 0     },
+      { "head": "Examination fee",   "amount": 3000,  "paid": 0     },
+      { "head": "ID card & misc.",   "amount": 3000,  "paid": 0     }
+    ]
+  }
+}

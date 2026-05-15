@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 DRC Infotech LLP
+Copyright (c) 2025 drcinfotech
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,37 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+────────────────────────────────────────────────────────────────────────────
+
+ADDITIONAL EDUCATION & EDTECH DISCLAIMER
+
+This software is provided as a technical demonstration of conversational AI
+patterns for education and EdTech use cases. It is NOT:
+
+  • A licensed school, tutoring service, or accredited educational provider
+  • A substitute for real teachers, tutors, professors, or school counsellors
+  • A grading authority, examination system, or transcript service
+  • Connected to any real school information system (SIS), learning management
+    system (LMS), or student record database
+
+The included data (student profile, courses, assignments, grades, attendance,
+fees, schedules, subject content) is entirely FICTIONAL. The student name
+"Ananya Patel" is a generic placeholder. "Greenfield Academy" is an invented
+school. None of the assessment scores, attendance figures, or fee amounts
+correspond to any real student or institution.
+
+The academic-integrity layer (refusing to write essays, solve graded
+homework, take tests, or bypass plagiarism detection) is a best-effort
+demonstration. Real academic-integrity enforcement is the responsibility of
+the educational institution and its policies.
+
+Subject explanations and worked examples are illustrative only. They may
+contain errors, oversimplifications, or content that does not match your
+specific curriculum (CBSE / ICSE / IB / Cambridge / state board / university).
+Always cross-check with your textbook and teacher.
+
+Do not deploy this software as a real tutoring service, grading system, or
+school information portal without substantial modification, professional
+educational review, and compliance with applicable data-protection laws
+(including India's DPDP Act 2023 and equivalents in other jurisdictions).
