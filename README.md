@@ -1,8 +1,8 @@
-# 🎓 Study Assistant — Education & EdTech AI Chatbot
+# 🎓 DRC Study Assistant — Education & EdTech AI Chatbot
 
 A production-grade, conversational AI demo for the education and EdTech industry. Built with **Python + FastAPI** on the backend and **React + Vite + Tailwind** on the frontend, with an **academic-integrity-first** architecture and rich response blocks for courses, assignments, grades, attendance, tutoring, study planning, and interactive flashcards.
 
-> ⚠️ **Demo only.** Study Assistant is not a real tutoring service, school information system, or accredited educational provider. All student data, courses, grades, and academic content are fictional. The bot uses a generic functional name ("Study Assistant") rather than a brand persona — this is intentional, since descriptive terms describing the actual function cannot be trademarked as brands for those same goods.
+> ⚠️ **Demo only.** DRC Study Assistant is not a real tutoring service, school information system, or accredited educational provider. All student data, courses, grades, and academic content are fictional. The bot uses a generic functional name ("DRC Study Assistant") rather than a brand persona — this is intentional, since descriptive terms describing the actual function cannot be trademarked as brands for those same goods.
 
 ![CI](https://img.shields.io/github/actions/workflow/status/drcinfotech/Education-AI-Chatbot/ci.yml?branch=main&label=tests)
 ![Python](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12-3776AB?logo=python&logoColor=white)
@@ -232,7 +232,7 @@ This is a **demonstration project**. It is not production-ready educational soft
 
 **Specifically:**
 
-- 🚫 **Not a real school or tutoring service.** Study Assistant does not enroll students, grade work, or issue transcripts.
+- 🚫 **Not a real school or tutoring service.** DRC Study Assistant does not enroll students, grade work, or issue transcripts.
 - 🚫 **Not a substitute for a real teacher.** Subject explanations are illustrative and may not match your specific curriculum. Cross-check with your textbook and teacher.
 - 🚫 **No real authentication.** The session model is in-memory and does not enforce identity. Real educational systems require proper student authentication before exposing academic records.
 - 🚫 **Mock student data only.** The student profile, courses, grades, attendance, and fees are fictional and do not correspond to any real student.
@@ -240,7 +240,7 @@ This is a **demonstration project**. It is not production-ready educational soft
 
 ### A note on the name
 
-Unlike a typical product, Study Assistant uses a **generic functional name** rather than an invented brand. This is intentional for a portfolio/demo project — descriptive terms describing the actual function of a tool cannot be claimed as trademarks for those same goods, which is the most honest way to sidestep brand-collision risk. If you fork this project and want to launch it commercially under a brand name, you'll need to choose a name and have a trademark attorney clear it for the jurisdictions and classes that matter to you.
+Unlike a typical product, DRC Study Assistant uses a **generic functional name** rather than an invented brand. This is intentional for a portfolio/demo project — descriptive terms describing the actual function of a tool cannot be claimed as trademarks for those same goods, which is the most honest way to sidestep brand-collision risk. If you fork this project and want to launch it commercially under a brand name, you'll need to choose a name and have a trademark attorney clear it for the jurisdictions and classes that matter to you.
 
 ---
 
